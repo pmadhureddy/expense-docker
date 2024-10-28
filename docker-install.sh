@@ -7,4 +7,4 @@ sudo yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin dock
 
 sudo systemctl start docker
 
-usermof -aG docker ec2-user
+sudo usermod -aG docker ec2-user
